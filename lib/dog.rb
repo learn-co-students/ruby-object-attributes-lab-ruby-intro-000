@@ -1,10 +1,7 @@
-require "pry"
 
 class Dog
   def name=(dog_name)
-    binding.pry
     @name = dog_name
-    binding.pry
   end
 
   def name
